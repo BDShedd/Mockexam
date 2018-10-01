@@ -1,0 +1,15 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?package edu.ung.mccb.csci.csci3300.view?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<VBox maxHeight="297.0" maxWidth="423.0" style="-fx-background-color:#ffffff" fx:controller="edu.ung.mccb.csci.csci3300.controller.Controller" xmlns:fx="http://javafx.com/fxml" alignment="center">
+
+    <TextField fx:id="txtLno" promptText="'Enter License Number" ><</TextField>
+    <TextField fx:id="txtVIN" promptText="'Enter VIN" ><</TextField>
+    <TextField fx:id="txtMake" promptText="'Enter Make" ><</TextField>
+    <TextField fx:id="txtModel" promptText="'Enter Model" ><</TextField>
+    <TextField fx:id="txtYear" promptText="'Enter Year" ><</TextField>
+    <Button onAction="#submitRecord" text="Submit"><</Button>
+
+</VBox>
