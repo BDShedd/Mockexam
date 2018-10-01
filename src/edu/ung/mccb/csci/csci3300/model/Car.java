@@ -1,5 +1,4 @@
 package edu.ung.mccb.csci.csci3300.model;
-import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
